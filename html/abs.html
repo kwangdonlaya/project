@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Abs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/html/css/exercisestyle.css">
+    <script src="scripts.js"></script>
+    <link  rel="stylesheet"   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"    
+      
+    />
+
+    <!-- Font  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sarabun:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class = "navbar">
+        <div class = "container">
+          <a href = "mainindex.html" class = "navbar-brand">Health4u</a>
+          <div class = "navbar-nav">
+            <a href="mainindex.html">หน้าหลัก</a>
+            <a href="MainArticle.html">บทความ</a>
+            <a href="exercise.html">ออกกำลังกาย</a>
+            <a href="/schedule/index.php">ตารางความท้าทาย</a>
+            <a href="/index.php">ชุมชน</a>
+            <a href="food website/food copy.html">วางแผนมื้ออาหาร & วิธีทำอาหาร</a>
+            <a href="/signin.php">สมาชิก</a>
+          </div>
+        </div>
+      </nav>
+      <div class = "blog-text">
+              
+        <h2>Abs</h2>
+        <p>การออกกำลังกายที่เน้นช่วงหน้าท้อง</p>
+        
+      </div>
+    <div class="full-img" id="fullImgBox">
+      <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_0.jpg" id="fullImg">
+      <span onclick="closeFullImg()">X</span>
+      <!--<img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_1.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_2.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_3.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_4.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_5.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_6.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_7.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_8.jpg">
+      <img src="./Fullbody/LINE_ALBUM_fullbody_๒๒๑๑๐๖_9.jpg">-->
+    
+    </div>
+
+   <div class="img-gallery">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_0.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_1.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_2.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_3.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_4.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_5.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_6.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_7.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_8.jpg" onclick="openFullImg(this.src)">
+    <img src="./abs/LINE_ALBUM_abs_๒๒๑๑๐๖_9.jpg" onclick="openFullImg(this.src)">
+    
+    
+    
+   </div>
+    </div>
+
+    <footer>
+      
+      <span>Health4u</span>
+    </footer>
+    
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+
+      function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+
+      function closeFullImg(){
+        fullImgBox.style.display = "none";
+      }
+      
+    </script>
+  </body>

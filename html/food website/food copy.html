@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Planner</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    
+    <link rel="stylesheet" href="./css/stylefood.css">
+    <link rel="stylesheet" href="./css/stylefood2.css">
+    
+
+
+</head>
+
+<body>
+
+    <!-- header section starts-->
+
+    <header>
+
+        <a href="/html/mainindex.html" class="logo"></i>Health4u</a>
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-nav">
+                    <a href="/html/mainindex.html">หน้าหลัก</a>
+                    <a href="/html/MainArticle.html">บทความ</a>
+                    <a href="/html/exercise.html">ออกกำลังกาย</a>
+                    <a href="/schedule/index.php">ตารางความท้าทาย</a>
+                    <a href="/index.php">ชุมชน</a>
+                    <a href="./food copy.html">วางแผนมื้ออาหาร & วิธีทำอาหาร</a>
+                    <a href="/signin.php">สมาชิก</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <!--<i class="fas fa-search" id="search-icon">-->
+                
+                <div class="wrapper">
+                  <div class="search-input">
+                    <a href="" target="_blank" hidden></a>
+                    <input type="text" placeholder="Type to search..">
+                    <div class="autocom-box">
+                      <!-- here list are inserted from javascript -->
+                    </div>
+                    <div class="icon"><i class="fas fa-search" id="search-icon"></i></div>
+                  </div>
+                </div>
+                
+                <script src="/html/food website//js/suggestions.js website/js/suggestions.js"></script>
+                <script src="/html/food website/js/script-search.js"></script>
+            </i>
+            <!--<a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>-->
+        </div>
+    
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>อาหารเพื่อสุขภาพ</span>
+                        <h3>โปรตีนแน่น</h3>
+                        <p>อาหารที่เหมาะกับคนที่ออกกำลังกายควรมีค่าของโปรตีนที่เหมาะสม</p>
+                    </div>
+                    <div class="image">
+                        
+                        <img src="./images/protein.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>อาหารเพื่อสุขภาพ</span>
+                        <h3>ผักหลากชนิด</h3>
+                        <p>การดูแลสุขภาพที่ดี ไม่สามารถขาดผักที่ต้องมีอยู่ในมื้ออาหารได้
+                            เพราะผักเป็นส่วนหนึ่งที่ช่วยให้สุขภาพดีและแข็งแรง</p>
+                    </div>
+                    <div class="image">
+                        <img src="./images/vet.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>อาหารเพื่อสุขภาพ</span>
+                        <h3>12 วิตามิน</h3>
+                        <p>อาหารทุกจานควรมีวิตามินที่เหมาะสม ไม่ว่าจะได้จากผัก หรือเนื้อสัตว์
+                            ก็จะช่วยบำรุงสุขภาพให้ดียิ่งขึ้นได้</p>
+                    </div>
+                    <div class="image">
+                        <img src="./images/vit.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="menu" id="menu">
+        <section class="dishes" id="dishes">
+
+            <h3 class="sub-heading"> เมนูอาหาร </h3>
+            <h1 class="heading"> เมนูอาหารแนะนำ</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="full-img">
+                        <img src="./images/dish6-7.jpg" alt="">
+                    </div>
+
+                    <h3>แซลมอนซอสมะขาม</h3>
+                    <span>200 kcal</span>
+                    <a href="./แซลมอนซอสมะขาม.html" class="btn">วิธีทำ</a>
+                </div>
+
+                <div class="box">
+                    <img src="./images/dish2-7.webp" alt="">
+                    <h3>ลาบเห็ด</h3>
+                    <span>300 Kcal</span>
+                    <a href="./ลาบเห็ด.html" class="btn">วิธีทำ</a>
+                </div>
+
+                <div class="box">
+                    <img src="./images/dish4-5.jpg" alt="">
+                    <h3>กุ้งอบวุ้นเส้น</h3>
+                    <span>300 Kcal</span>
+                    <a href="./กุ้งอบวุ้นเส้น.html" class="btn">วิธีทำ</a>
+                </div>
+
+                <div class="box">
+                    <img src="./images/dish5-7.jpg" alt="">
+                    <h3>บะหมี่ผักอกไก่ตุ๋น</h3>
+                    <span>300 Kcal</span>
+                    <a href="./บะหมี่ผักอกไก่ตุ๋น.html" class="btn">วิธีทำ</a>
+                </div>
+
+                <div class="box">
+                    <img src="./images/dish7-7.webp" alt="">
+                    <h3>พริกหวานยัดไส้</h3>
+                    <span>200 Kcal</span>
+                    <a href="./พริกหวานยัดไส้ไขมันต่ำ.html" class="btn">วิธีทำ</a>
+                </div>
+
+                <div class="box">
+                    <img src="./images/dish3-7.jpg" alt="">
+                    <h3>ต้มแซ่บซี่โครงหมู</h3>
+                    <span>500 Kcal</span>
+                    <a href="./ต้มแซ่บซี่โครงหมู.html" class="btn">วิธีทำ</a>
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> วางแผนมื้ออาหาร </h3>
+        <h1 class="heading"> วางแผนมื้ออาหารด้วยตัวของคุณเอง</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./images/calendar.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>วางแผนมื้ออาหาร สุขภาพที่ดี</h3>
+                <p>หากสามารถจำกัดพลังงานจากอาหารได้ จะช่วยลดน้ำหนักได้อย่างรวดเร็วประมาณ 10 – 15% ของน้ำหนักตัวเดิมภายใน 3 เดือน แต่การลดน้ำหนักวิธีนี้อาจทำให้เกิดการขาดสารอาหารได้ จึงจำเป็นต้องปรึกษาแพทย์ทางด้านโภชนาการเกี่ยวกับการรับประทานวิตามินและเกลือแร่เสริม ดังนั้นจึงควรเลือกและคำนวนพลังงานจากอาหารที่เหมาะสมต่อวัน เพื่อป้องกันผลกระทบที่จะเกิดขึ้นกับร่างกาย
+                </p>
+                <p>ในการทานอาหารปกติประจำวัน การกินอาหาร 1 มื้ออาจทำให้ได้รับพลังงานมากกว่า 300 – 700 กิโลแคลอรี่ หากต้องการกำหนดพลังงานที่แน่นอนจากอาหารควรวางแผนการบริโภคอาหารให้เหมาะสม พร้อมทั้งปรึกษาผู้เชี่ยวชาญควบคู่ไปด้วย เพื่อไม่ให้ได้รับอันตรายต่อร่างกาย</p>
+                    <a href="./food planner.html" class="btn">จัดตารางมื้ออาหาร</a>
+            
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> เมนูทั้งหมด</h3>
+        <h1 class="heading"> เมนูคลีน ไขมันต่ำ</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish1.webp" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>สลัดแซลมอนแซ่บ</h3>
+                    <p>หลายคนอาจจะกังวลเรื่องการทานอาหาร กลัวว่าจะได้รับผลจากอาหารที่ทาน
+                        วันนี้เลยจะพาคุณเข้าครัวทำเมนู “สลัดแซลมอนแซ่บ” พร้อมสูตรน้ำสลัดซีฟู้ด
+                        เพราะแซลมอนเป็นแหล่งอาหารที่มีโปรตีนสูงและมี DHA ที่ช่วยบำรุงสมอง และสายตา</p>
+                    <a href="./สลัดแซลมอนแซ่บ.html" class="btn">วิธีทำ</a>
+                    <span class="price">168 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish2-7.webp" alt="">
+                   <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>ลาบเห็ด</h3>
+                    <p>วันนี้จะชวนเพื่อน ๆ เข้าครัวมาทำเมนู “ลาบเห็ด” เมนูเพื่ออาหารเพื่อสุขภาพง่าย ๆ สไตล์อีสาน
+                        อร่อยครบรส
+                        ไม่ว่าจะเป็นรสเผ็ด เปรี้ยว และหวานนิดหน่อย โดยวันนี้เราจะใช้ 3 เห็ดในการทำ
+                        ถ้าพร้อมแล้วรีบสวมผ้ากันเปื้อนแล้วตามเข้าครัวมาเลยจ้า</p>
+                    <a href="./ลาบเห็ด.html" class="btn">วิธีทำ</a>
+                    <span class="price">300 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish3-7.jpg" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>ต้มแซ่บซี่โครงหมู</h3>
+                    <p>คุณจะอยู่บ้าน หรืออยู่หอก็ทำได้ “ต้มแซ่บซี่โครงหมู” ฉบับจับใส่ไมโครเวฟก็นุ่มได้
+                        อยากรู้ว่าเคล็ดลับคืออะไร
+                        ตามมาดูวิธีทำกันเลย เข้าครัวมาทำเมนูอาหารอีสาน “ต้มแซ่บซี่โครงหมู” สิบห้านาทีก็นุ่มได้
+                        ไม่ต้องตุ๋นเป็นชั่วโมง
+                        ไม่ว่าจะอยู่หอ หรืออยู่บ้านก็สะดวกทั้งนั้น</p>
+                    <a href="./ต้มแซ่บซี่โครงหมู.html" class="btn">วิธีทำ</a>
+                    <span class="price">500 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish4.webp" alt="">
+                   <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>กุ้งอบวุ้นเส้น</h3>
+                    <p>"กุ้งอบวุ้นเส้น" หลายคนที่ลดน้ำหนักก็มักจะนึกถึงเมนูที่มีส่วนผสมของวุ้นเส้น
+                        วันนี้เราจะมาทำเมนูกุ้งอบวุ้นเส้นแบบคลีน ๆ ที่สามารถช่วยลดน้ำหนักได้ด้วย
+                        แถมยังได้สุขภาพดีไปพร้อม ๆ
+                        กับความอร่อยเลยค่ะ มาดูวัตถุดิบสำหรับเมนูกันนี้ค่ะ</p>
+                    <a href="./กุ้งอบวุ้นเส้น.html" class="btn">วิธีทำ</a>
+                    <span class="price">300 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish5-7.jpg" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>บะหมี่ผักอกไก่ตุ๋น</h3>
+                    <p>วันนี้จะชวนเพื่อน ๆ เข้าครัวมาทำเมนู “บะหมี่ผักอกไก่ตุ๋น” โดยมื้อนี้เราจะเน้นสุขภาพสุด ๆ
+                        เหมาะกับเทรนด์สุขภาพที่มาแรงตอนนี้เลย หลายคนอาจจะมองว่าเมนูอาหารเพื่อสุขภาพไม่อร่อย
+                        แต่วันนี้แก้มมีเคล็ดลับดี ๆ มาฝาก รสชาติจะเป็นอย่างไร รีบตามเข้าครัวมาเลยจ้า รับรองทำแล้วจะติดใจ
+                    </p>
+                    <a href="./บะหมี่ผักอกไก่ตุ๋น.html" class="btn">วิธีทำ</a>
+                    <span class="price">300 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish6.webp" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>แซลมอนซอสมะขาม</h3>
+                    <p>ปลาแซลมอนจัดได้ว่าเป็นราชาแห่งปลาทะเลเลยค่ะ เป็นแหล่งไขมันดี มีโอเมก้า 3 คอลลาเจน และวิตามินต่าง
+                        ๆ ที่เป็นประโยชน์ต่อร่างกาย เรียกว่าใครที่เบื่ออกไก่อยากหันมาทานปลาแซลมอนก็ถือว่าดีเลยนะคะ
+                        ได้ประโยชน์ไม่แพ้กันเลยค่ะ วันนี้เลยอยากนำเสนอเมนู “แซลมอนซอสมะขาม” </p>
+                    <a href="./แซลมอนซอสมะขาม.html" class="btn">วิธีทำ</a>
+                    <span class="price">200 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish7.webp" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>พริกหวานยัดไส้</h3>
+                    <p>พริกหวานเป็นผักที่หลาย ๆ คนไม่ชอบทาน เนื่องจากมีกลิ่นเหม็นเขียวและรสชาติที่ไม่ถูกปาก แต่จริง ๆ
+                        แล้วพริกหวานมีประโยชน์อย่างมาก มีสาร Capsaicin ซึ่งเป็นสารต้านอนุมูลอิสระ ช่วยคลายเครียด
+                        แถมยังช่วยกระตุ้นการทำงานของระบบย่อยอาหารอีกด้วย วันนี้จึงอยากนำเสนอเมนูเพื่อสุขภาพ</p>
+                    <a href="./พริกหวานยัดไส้ไขมันต่ำ.html" class="btn">วิธีทำ</a>
+                    <span class="price">200 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish8.webp" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>สลัดโรลอกไก่อบ</h3>
+                    <p>มารักษาสุขภาพด้วยการทำเมนูอาหารเพื่อสุขภาพ ที่มีปริมาณมากแต่แคลอรี่ไม่มากตาม อย่างเมนู
+                        “สลัดโรลล์ไก่อบ” ที่มาพร้อมกับแผ่นแป้งสไตล์เม็กซิกัน ผักสลัดสดกรอบ เนื้ออกไก่นุ่ม ๆ
+                        และซอสสูตรเด็ด พิมเกริ่นมาขนาดนี้แล้ว อยากรู้วิธีการทำกันแล้วใช่ไหมคะ ถ้างั้นไปเริ่มทำกันเลยค่า!
+                    </p>
+                    <a href="./สลัดโรลอกไก่อบ.html" class="btn">วิธีทำ</a>
+                    <span class="price">500 Kcal</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/dish9.webp" alt="">
+                    <!--<a href="#" class="fas fa-heart"></a>-->
+                </div>
+                <div class="content">
+                    <h3>แกงเขียวหวานอกไก่</h3>
+                    <p>"แกงเขียวหวานอกไก่" ฉบับคลีนทำไม่ยากเลยค่ะ แค่เราเปลี่ยนจากกะทิ มาใช้นมขาดมันเนยแทน
+                        และใช้เครื่องปรุงรส ที่ลดโซเดียมลงค่ะ ส่วนรสชาติ ก็ไม่ผิดเพี้ยนไปมากนะคะ ยังคงความอร่อยอยู่จ้า
+                        ยิ่งทานคู่กับขนมจีน โอ๊ยยยฟินนนแน่นอนค่า</p>
+                    <a href="./แกงเขียวหวานอกไก่.html" class="btn">วิธีทำ</a>
+                    <span class="price">300 Kcal</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--menu section end-->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="/html/food website/js/script.js"></script>
+
+</body>
+
+</html>

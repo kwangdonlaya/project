@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500&display=swap');
+
+body {font-family: 'Sarabun', sans-serif}
+*{
+    line-height: 2;
+}
+h1,h2{
+  letter-spacing: 5px;
+  padding-top: 10px;
+}
+h4{
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 5px;
+    font-weight: 500;
+}
+h5{
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: 12px;
+    word-spacing: 370px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 12%
+}
+h6{
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: 8px;
+    text-align: center;
+}
+.article{
+    margin-top:  1rem;
+}
+.article h2{
+    font-family: 'Chonburi', cursive;
+}
+
+.article {
+    font-family: 'Sarabun', sans-serif
+    font-size 24px; 
+    padding: 10%; 
+    padding-right: 10%; 
+    padding-bottom: -10%;
+}
+
+h2{
+    text-align: center;
+}
+.article h3{
+    font-family: 'Mitr', sans-serif;
+}
+.article p{
+    font-family: 'Sarabun', sans-serif;
+}
+.article a{
+    font-family: 'Sarabun', sans-serif
+}
+
+#img_container img{
+    margin: auto auto;
+    display: block;
+  }
+
+p {
+    text-indent: 1.5em;
+    margin-top: 0 }
+
+ol, li, ul{
+    font-family: 'Sarabun', sans-serif
+}
+img{
+    margin: auto;
+    padding: 10px;
+    justify-items: center;
+    width: 100%;
+    height: 50%;
+}
+.img2{
+    width: 47%;
+    height: 50%;
+}
+.img3{
+    width: 47%;
+    height: 50%;
+}
+.img4{
+    width: 85%;
+    height: 70%;
+    position: center;
+    text-align: center;
+    justify-items: center;
+    padding-left: 13%;
+}
+/*.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full-img img{
+    width: 90%;
+    max-width: 500px; 
+}*/
